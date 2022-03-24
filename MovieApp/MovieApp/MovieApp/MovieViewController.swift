@@ -79,14 +79,51 @@ class MoveViewController: UIViewController {
         labelOvrLong.textColor = .black
         labelOvrLong.font = UIFont(name: "HelveticaNeue", size: 12.0)
         
-        let layoutCastView = UICollectionViewFlowLayout()
-        let labelCastView = UICollectionView(frame: CGRect(
-            x: 400, y: 20, width: view.bounds.width,
-            height: 200), collectionViewLayout: layoutCastView)
         
-        view.addSubview(labelCastView)
+        let stackView = UIStackView()
+        stackView.axis = .horizontal
+        stackView.alignment = .fill
+        stackView.distribution = .fillProportionally
+        stackView.translatesAutoresizingMaskIntoConstraints = false
         
+        view.addSubview(stackView)
+        let stackView2 = UIStackView()
+        stackView2.axis = .horizontal
+        stackView2.alignment = .fill
+        stackView2.distribution = .fillProportionally
+        stackView2.translatesAutoresizingMaskIntoConstraints = false
         
+        view.addSubview(stackView2)
+        
+        let labelCast = ["Tim Miller", "Rhett Reese", "Paul Wernick", "Ryan Reynolds","Morena Baccarin","T.J.Miller"]
+        let labelCastJob = ["Director", "Writer", "Writer", "Screenplay", "Screenplay", "Screenplay"]
+        
+        var cnt = 0
+        for word in labelCast{
+            cnt = cnt + 1
+            let labelNew = UILabel()
+            labelNew.numberOfLines = 0
+            labelNew.text = word + "\n" + labelCastJob[cnt-1]
+            labelNew.font = UIFont(name: "HelveticaNeue-Bold", size: 12.0)
+            //let view1 = UIView()
+            //view1.addSubview(labelNew)
+            if(cnt < 4){
+                stackView.addArrangedSubview(labelNew)
+            }
+            else{
+                stackView2.addArrangedSubview(labelNew)
+            }
+        }
+        NSLayoutConstraint.activate([
+            stackView.topAnchor.constraint(equalTo: view.topAnchor, constant: 400),
+            stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 15)
+        ])
+        NSLayoutConstraint.activate([
+            stackView2.topAnchor.constraint(equalTo: view.topAnchor, constant: 450),
+            stackView2.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            stackView2.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 15)
+        ])
         
         
         view.addSubview(imageStar)
@@ -147,7 +184,7 @@ class MoveViewController: UIViewController {
         labelOvrLong.translatesAutoresizingMaskIntoConstraints=false
         NSLayoutConstraint.activate([
             labelOvrLong.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 15),
-            labelOvrLong.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 15),
+            labelOvrLong.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 5),
             labelOvrLong.topAnchor.constraint(equalTo: view.topAnchor, constant: 335)
         ])
         
