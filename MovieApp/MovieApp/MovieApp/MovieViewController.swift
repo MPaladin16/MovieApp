@@ -83,17 +83,19 @@ class MoveViewController: UIViewController {
         let stackView = UIStackView()
         stackView.axis = .horizontal
         stackView.alignment = .fill
-        stackView.distribution = .fillProportionally
+        //stackView.distribution = .fillProportionally
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
         view.addSubview(stackView)
         let stackView2 = UIStackView()
         stackView2.axis = .horizontal
         stackView2.alignment = .fill
-        stackView2.distribution = .fillProportionally
+        //stackView2.distribution = .fillProportionally
         stackView2.translatesAutoresizingMaskIntoConstraints = false
         
         view.addSubview(stackView2)
+        
+        
         
         let labelCast = ["Tim Miller", "Rhett Reese", "Paul Wernick", "Ryan Reynolds","Morena Baccarin","T.J.Miller"]
         let labelCastJob = ["Director", "Writer", "Writer", "Screenplay", "Screenplay", "Screenplay"]
@@ -103,15 +105,24 @@ class MoveViewController: UIViewController {
             cnt = cnt + 1
             let labelNew = UILabel()
             labelNew.numberOfLines = 0
-            labelNew.text = word + "\n" + labelCastJob[cnt-1]
+            labelNew.text = word
             labelNew.font = UIFont(name: "HelveticaNeue-Bold", size: 12.0)
-            //let view1 = UIView()
-            //view1.addSubview(labelNew)
+            let labelNew2 = UILabel()
+            labelNew2.text = labelCastJob[cnt-1]
+            labelNew2.font = UIFont(name: "HelveticaNeue", size:12.0)
+            let stackViewVer = UIStackView()
+            stackViewVer.axis = .vertical
+            stackViewVer.alignment = .fill
+            stackViewVer.distribution = .fillProportionally
+            stackViewVer.translatesAutoresizingMaskIntoConstraints = false
+            stackViewVer.addArrangedSubview(labelNew)
+            stackViewVer.addArrangedSubview(labelNew2)
+            
             if(cnt < 4){
-                stackView.addArrangedSubview(labelNew)
+                stackView.addArrangedSubview(stackViewVer)
             }
             else{
-                stackView2.addArrangedSubview(labelNew)
+                stackView2.addArrangedSubview(stackViewVer)
             }
         }
         NSLayoutConstraint.activate([
@@ -122,7 +133,7 @@ class MoveViewController: UIViewController {
         NSLayoutConstraint.activate([
             stackView2.topAnchor.constraint(equalTo: view.topAnchor, constant: 450),
             stackView2.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            stackView2.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 15)
+            stackView2.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 5)
         ])
         
         
