@@ -12,6 +12,7 @@
 		5285316B27EB3871000958D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5285316A27EB3871000958D7 /* Assets.xcassets */; };
 		5285316E27EB3871000958D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5285316C27EB3871000958D7 /* LaunchScreen.storyboard */; };
 		5285317627EB3E21000958D7 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285317527EB3E21000958D7 /* MovieViewController.swift */; };
+		529E76CE28029EBD007B2302 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E76CD28029EBD007B2302 /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		5285316D27EB3871000958D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5285316F27EB3871000958D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5285317527EB3E21000958D7 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		529E76CD28029EBD007B2302 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		529E76D02802A720007B2302 /* MovieAppData-main */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "MovieAppData-main"; path = "../../../../../../Downloads/MovieAppData-main"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,7 @@
 		5285315527EB3870000958D7 = {
 			isa = PBXGroup;
 			children = (
+				529E76CF2802A720007B2302 /* Packages */,
 				5285316027EB3870000958D7 /* MovieApp */,
 				5285315F27EB3870000958D7 /* Products */,
 			);
@@ -54,6 +58,7 @@
 		5285316027EB3870000958D7 /* MovieApp */ = {
 			isa = PBXGroup;
 			children = (
+				529E76CD28029EBD007B2302 /* SearchBarView.swift */,
 				5285316127EB3870000958D7 /* AppDelegate.swift */,
 				5285316327EB3870000958D7 /* SceneDelegate.swift */,
 				5285316A27EB3871000958D7 /* Assets.xcassets */,
@@ -62,6 +67,14 @@
 				5285317527EB3E21000958D7 /* MovieViewController.swift */,
 			);
 			path = MovieApp;
+			sourceTree = "<group>";
+		};
+		529E76CF2802A720007B2302 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				529E76D02802A720007B2302 /* MovieAppData-main */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529E76CE28029EBD007B2302 /* SearchBarView.swift in Sources */,
 				5285316227EB3870000958D7 /* AppDelegate.swift in Sources */,
 				5285316427EB3870000958D7 /* SceneDelegate.swift in Sources */,
 				5285317627EB3E21000958D7 /* MovieViewController.swift in Sources */,
@@ -158,6 +172,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -219,6 +234,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
