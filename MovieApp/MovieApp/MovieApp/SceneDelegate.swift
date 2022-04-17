@@ -8,6 +8,7 @@
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+<<<<<<< Updated upstream
 
     var window: UIWindow?
 
@@ -59,5 +60,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 
+=======
+>>>>>>> Stashed changes
 }
 
