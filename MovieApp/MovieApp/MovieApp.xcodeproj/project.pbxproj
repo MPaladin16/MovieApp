@@ -7,12 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< Updated upstream
 		527B125F27FDBF6C0072FAC5 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B125E27FDBF6C0072FAC5 /* MovieListViewController.swift */; };
-=======
-		527C1543280B3AA40070BE01 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 527C1542280B3AA40070BE01 /* SnapKit */; };
-		527C1545280B3AA40070BE01 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 527C1544280B3AA40070BE01 /* SnapKit-Dynamic */; };
->>>>>>> Stashed changes
 		5285316227EB3870000958D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285316127EB3870000958D7 /* AppDelegate.swift */; };
 		5285316427EB3870000958D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285316327EB3870000958D7 /* SceneDelegate.swift */; };
 		5285316627EB3870000958D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285316527EB3870000958D7 /* ViewController.swift */; };
@@ -22,17 +17,7 @@
 <<<<<<< Updated upstream
 =======
 		5285317627EB3E21000958D7 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285317527EB3E21000958D7 /* MovieViewController.swift */; };
-<<<<<<< Updated upstream
 		52D30B6C27FDB10C00882CEF /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D30B6B27FDB10C00882CEF /* SearchBarView.swift */; };
->>>>>>> Stashed changes
-=======
-		528BB551280C2B6C00012B09 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BB550280C2B6C00012B09 /* MovieList.swift */; };
-		528BB553280C2D8800012B09 /* MovieListSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BB552280C2D8800012B09 /* MovieListSearch.swift */; };
-		528BB555280C2DE400012B09 /* MovieListSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BB554280C2DE400012B09 /* MovieListSearchCell.swift */; };
-		528BB557280C2E8D00012B09 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BB556280C2E8D00012B09 /* MovieListView.swift */; };
-		528BB559280C2F6400012B09 /* MovieCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BB558280C2F6400012B09 /* MovieCells.swift */; };
-		529343A82809BD1D00E83ACF /* MovieAppData in Frameworks */ = {isa = PBXBuildFile; productRef = 529343A72809BD1D00E83ACF /* MovieAppData */; };
-		529E76CE28029EBD007B2302 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E76CD28029EBD007B2302 /* SearchBarView.swift */; };
 >>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
@@ -50,16 +35,7 @@
 <<<<<<< Updated upstream
 =======
 		5285317527EB3E21000958D7 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
-<<<<<<< Updated upstream
 		52D30B6B27FDB10C00882CEF /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
->>>>>>> Stashed changes
-=======
-		528BB550280C2B6C00012B09 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
-		528BB552280C2D8800012B09 /* MovieListSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListSearch.swift; sourceTree = "<group>"; };
-		528BB554280C2DE400012B09 /* MovieListSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListSearchCell.swift; sourceTree = "<group>"; };
-		528BB556280C2E8D00012B09 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
-		528BB558280C2F6400012B09 /* MovieCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCells.swift; sourceTree = "<group>"; };
-		529E76CD28029EBD007B2302 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 >>>>>>> Stashed changes
 /* End PBXFileReference section */
 
@@ -68,9 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				529343A82809BD1D00E83ACF /* MovieAppData in Frameworks */,
-				527C1543280B3AA40070BE01 /* SnapKit in Frameworks */,
-				527C1545280B3AA40070BE01 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,10 +61,7 @@
 		5285315527EB3870000958D7 = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< Updated upstream
 				527B125C27FDBDC90072FAC5 /* Packages */,
-=======
->>>>>>> Stashed changes
 				5285316027EB3870000958D7 /* MovieApp */,
 				5285315F27EB3870000958D7 /* Products */,
 			);
@@ -118,16 +88,8 @@
 <<<<<<< Updated upstream
 =======
 				5285317527EB3E21000958D7 /* MovieViewController.swift */,
-<<<<<<< Updated upstream
 				527B125E27FDBF6C0072FAC5 /* MovieListViewController.swift */,
 				52D30B6B27FDB10C00882CEF /* SearchBarView.swift */,
->>>>>>> Stashed changes
-=======
-				528BB550280C2B6C00012B09 /* MovieList.swift */,
-				528BB552280C2D8800012B09 /* MovieListSearch.swift */,
-				528BB554280C2DE400012B09 /* MovieListSearchCell.swift */,
-				528BB556280C2E8D00012B09 /* MovieListView.swift */,
-				528BB558280C2F6400012B09 /* MovieCells.swift */,
 >>>>>>> Stashed changes
 			);
 			path = MovieApp;
@@ -149,11 +111,6 @@
 			dependencies = (
 			);
 			name = MovieApp;
-			packageProductDependencies = (
-				529343A72809BD1D00E83ACF /* MovieAppData */,
-				527C1542280B3AA40070BE01 /* SnapKit */,
-				527C1544280B3AA40070BE01 /* SnapKit-Dynamic */,
-			);
 			productName = MovieApp;
 			productReference = 5285315E27EB3870000958D7 /* MovieApp.app */;
 			productType = "com.apple.product-type.application";
@@ -182,10 +139,6 @@
 				Base,
 			);
 			mainGroup = 5285315527EB3870000958D7;
-			packageReferences = (
-				529343A62809BD1D00E83ACF /* XCRemoteSwiftPackageReference "MovieAppData" */,
-				527C1541280B3AA40070BE01 /* XCRemoteSwiftPackageReference "SnapKit" */,
-			);
 			productRefGroup = 5285315F27EB3870000958D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -214,26 +167,13 @@
 			buildActionMask = 2147483647;
 			files = (
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 				5285316627EB3870000958D7 /* ViewController.swift in Sources */,
 =======
 				52D30B6C27FDB10C00882CEF /* SearchBarView.swift in Sources */,
 				527B125F27FDBF6C0072FAC5 /* MovieListViewController.swift in Sources */,
 >>>>>>> Stashed changes
-=======
-				529E76CE28029EBD007B2302 /* SearchBarView.swift in Sources */,
-				528BB559280C2F6400012B09 /* MovieCells.swift in Sources */,
->>>>>>> Stashed changes
 				5285316227EB3870000958D7 /* AppDelegate.swift in Sources */,
-				528BB553280C2D8800012B09 /* MovieListSearch.swift in Sources */,
 				5285316427EB3870000958D7 /* SceneDelegate.swift in Sources */,
-<<<<<<< Updated upstream
-=======
-				528BB555280C2DE400012B09 /* MovieListSearchCell.swift in Sources */,
-				528BB557280C2E8D00012B09 /* MovieListView.swift in Sources */,
-				528BB551280C2B6C00012B09 /* MovieList.swift in Sources */,
-				5285317627EB3E21000958D7 /* MovieViewController.swift in Sources */,
->>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,43 +391,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		527C1541280B3AA40070BE01 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-		529343A62809BD1D00E83ACF /* XCRemoteSwiftPackageReference "MovieAppData" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/fiveagency/MovieAppData.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		527C1542280B3AA40070BE01 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 527C1541280B3AA40070BE01 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		527C1544280B3AA40070BE01 /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 527C1541280B3AA40070BE01 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
-		};
-		529343A72809BD1D00E83ACF /* MovieAppData */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 529343A62809BD1D00E83ACF /* XCRemoteSwiftPackageReference "MovieAppData" */;
-			productName = MovieAppData;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5285315627EB3870000958D7 /* Project object */;
 }
